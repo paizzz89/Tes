@@ -125,7 +125,7 @@
   var tomnegatif = 'Engga';
     
   async function menuju() {
-  pesanwhatsapp = "Makasii Ayang udah ngucapin " + nama + " ultah, Ayo sesok tak traktir wizzmie/gacoan";
+  pesanwhatsapp = "Timaaci mas sayang udah ngucapin adek sayang seng gemoyyy dan nangisan ini ultah, Ayo sesok tak traktir wizzmie, gacoan, rekoso, mie ayam, seblak, sate🤣🤣🤣";
 
   // Ganti nomor_telepon_dituju dengan nomor telepon yang ingin Anda tuju
   var nomor_telepon_dituju = '6285290983956';
@@ -133,7 +133,7 @@
   // Menggunakan encodeURI untuk mengonversi pesanwhatsapp ke dalam format yang valid untuk URL
   var encoded_pesanwhatsapp = encodeURIComponent(pesanwhatsapp);
 
-  await swals.fire('OK!', 'Kirim Via Wa!', 'success');
+  await swals.fire('OK!', 'Bilang Maaci', 'success');
 
   // Mengarahkan ke WhatsApp dengan nomor telepon dan pesanwhatsapp yang telah diencode
   window.location = "https://api.whatsapp.com/send?phone=" + nomor_telepon_dituju + "&text=" + encoded_pesanwhatsapp;
